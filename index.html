@@ -1,213 +1,422 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>비주류 문화 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --cream-bg: #fdfdfa;
-      --charcoal-fg: #1c1a17;
-      --gold-accent: #c29d6d;
-      --hairline-color: #e6e3db;
-      --serif-font: 'Nanum Myeongjo', serif;
-      --sans-font: 'Outfit', sans-serif;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>공덕 셔츠룸 추천 가이드 — 조건별 선택과 이용 전 필수 확인사항 안내</title>
+<meta name="description" content="공덕 셔츠룸 추천 가이드로 업소 선택 기준, 이용 전 확인사항, 개인 조건에 맞는 적합성을 상세히 분석합니다. 처음 방문부터 만족스러운 경험을 위한 필수 정보를 제공합니다.">
+<meta name="keywords" content="공덕 셔츠룸, 공덕 셔츠룸 추천, 공덕 셔츠룸 선택 기준, 공덕 셔츠룸 이용 전 확인, 셔츠룸 가이드">
+<link rel="canonical" href="https://gongdeok-shirts-note.gangnam-night-zone.xyz">
+<meta property="og:title" content="공덕 셔츠룸 추천 가이드 — 조건별 선택과 이용 전 필수 확인사항 안내">
+<meta property="og:description" content="공덕 셔츠룸 추천 가이드로 업소 선택 기준, 이용 전 확인사항, 개인 조건에 맞는 적합성을 상세히 분석합니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gongdeok-shirts-note.gangnam-night-zone.xyz">
+<meta property="og:site_name" content="공덕 셔츠룸 추천 가이드">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="공덕 셔츠룸 추천 가이드 — 조건별 선택과 이용 전 필수 확인사항 안내">
+<meta name="twitter:description" content="공덕 셔츠룸 추천 가이드로 업소 선택 기준, 이용 전 확인사항, 개인 조건에 맞는 적합성을 상세히 분석합니다.">
+<meta name="bpaas-design-system" content="organic-stripe">
+<meta name="bpaas-design-theme" content="kr-organic-stripe">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "공덕 셔츠룸 추천 시 가장 중요한 기준은 무엇인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "업소의 청결도, 서비스 투명성, 가격 대비 만족도가 핵심입니다. 객관적인 리뷰와 실제 방문 경험을 바탕으로 선택하는 것이 현명합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "셔츠룸 이용 전에 꼭 확인해야 할 사항은有哪些?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "영업시간, 예약 방식, 추가 비용 여부, 업소의 위생 상태를 반드시 사전에 확인하세요. 예약 없이 방문하면 대기 시간이 길어질 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "개인의 선호도에 따라 어떤 조건의 셔츠룸을 선택해야 하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "조용한 분위기를 원한다면 독립된 룸이 있는 업소, 가성비를 중시한다면 가격표가 명시된 곳을 추천합니다. 고객 후기를 참고해 본인에게 맞는 스타일을 찾아보세요."
+      }
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--cream-bg);
-      color: var(--charcoal-fg);
-      font-family: var(--sans-font);
-      line-height: 1.8;
-      padding: 0 40px;
-    }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 32px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-    .brand {
-      font-family: var(--serif-font);
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      letter-spacing: 0.05em;
-    }
-    nav { display: flex; gap: 32px; }
-    nav a {
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      transition: color 0.3s ease;
-    }
-    nav a:hover { color: var(--gold-accent); }
-    main { padding-bottom: 80px; }
-    .kicker {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--gold-accent);
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-family: var(--serif-font);
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-      color: var(--charcoal-fg);
-      margin-bottom: 40px;
-    }
-    .story-body {
-      font-family: var(--serif-font);
-      font-size: 1.15rem;
-      color: var(--charcoal-fg);
-      font-weight: 400;
-      text-align: justify;
-      margin-bottom: 60px;
-    }
-    .story-body p { margin-bottom: 24px; text-indent: 12px; }
-    .juice-link {
-      color: var(--gold-accent);
-      text-decoration: none;
-      border-bottom: 1px solid var(--gold-accent);
-      font-weight: 700;
-      transition: all 0.3s ease;
-    }
-    .juice-link:hover {
-      color: var(--charcoal-fg);
-      border-bottom-color: var(--charcoal-fg);
-    }
-    .editorials {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 60px;
-    }
-    .editorial-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--gold-accent);
-      margin-bottom: 40px;
-    }
-    .editorial-flow {
-      display: flex;
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "지역 정보 리서처 이준호"
+  }
+}
+</script>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #fcf8f2;
+    color: #2e2522;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  .r-list-dek0 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .t-btn-s54l {
+    position: sticky;
+    top: 0;
+    background-color: #fcf8f2;
+    border-bottom: 1px solid #2e2522;
+    padding: 16px 0;
+    z-index: 100;
+  }
+  .t-btn-s54l-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .m-btn-mvar {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #2e2522;
+  }
+  .r-list-gzqt {
+    display: flex;
+    gap: 16px;
+  }
+  .r-list-gzqt a {
+    text-decoration: none;
+    color: #2e2522;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  .r-list-gzqt a:hover {
+    color: #7f5539;
+  }
+  .q-body-vjey {
+    display: none;
+    cursor: pointer;
+    width: 24px;
+    height: 2px;
+    background-color: #2e2522;
+    position: relative;
+  }
+  .q-body-vjey::before, .q-body-vjey::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #2e2522;
+    left: 0;
+  }
+  .q-body-vjey::before {
+    top: -8px;
+  }
+  .q-body-vjey::after {
+    bottom: -8px;
+  }
+  @media (max-width: 768px) {
+    .r-list-gzqt {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #fcf8f2;
+      border-bottom: 1px solid #2e2522;
       flex-direction: column;
-      gap: 40px;
+      padding: 16px 24px;
+      gap: 12px;
     }
-    .editorial-block {
-      text-decoration: none;
-      color: var(--charcoal-fg);
-      display: block;
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 30px;
-    }
-    .editorial-block:hover h3 { color: var(--gold-accent); }
-    .editorial-block h3 {
-      font-family: var(--serif-font);
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      transition: color 0.3s ease;
-    }
-    .editorial-block p {
-      font-size: 0.95rem;
-      color: #555555;
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 40px;
+    .r-list-gzqt.active {
       display: flex;
-      justify-content: space-between;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      color: #888888;
     }
-    footer a { color: #888888; text-decoration: none; }
-    footer a:hover { color: var(--gold-accent); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 16px; }
-      h1 { font-size: 2rem; }
-      .story-body { font-size: 1.05rem; }
+    .q-body-vjey {
+      display: block;
     }
-  </style>
+  }
+  .k-item-c5jk {
+    padding: 40px 0;
+    border-bottom: 2px solid #2e2522;
+  }
+  .k-item-c5jk-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  .k-item-c5jk-text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -1px;
+  }
+  .k-item-c5jk-sub {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: #7f5539;
+  }
+  .k-item-c5jk-rule {
+    width: 60px;
+    height: 2px;
+    background-color: #7f5539;
+    margin: 24px 0;
+  }
+  .k-item-c5jk-note {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 400px;
+  }
+  @media (max-width: 768px) {
+    .k-item-c5jk-content {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .k-item-c5jk-text {
+      font-size: 28px;
+    }
+  }
+  .q-item-bw5f {
+    padding: 40px 0;
+    border-bottom: 1px solid #2e2522;
+  }
+  .q-item-bw5f-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    letter-spacing: -0.5px;
+  }
+  .x-head-8hor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .x-head-8hor-card {
+    border: 1px solid #2e2522;
+    padding: 24px;
+    transition: background-color 0.2s ease;
+  }
+  .x-head-8hor-card:hover {
+    background-color: #f0ebe3;
+  }
+  .x-head-8hor-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  .x-head-8hor-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  @media (max-width: 768px) {
+    .x-head-8hor-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .k-btn-8fsu {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .k-btn-8fsu li {
+    border-left: 2px solid #7f5539;
+    padding-left: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  @media (max-width: 768px) {
+    .k-btn-8fsu {
+      grid-template-columns: 1fr;
+    }
+  }
+  .k-main-12gc-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+  }
+  .k-main-12gc-table th, .k-main-12gc-table td {
+    border: 1px solid #2e2522;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+  }
+  .k-main-12gc-table th {
+    background-color: #2e2522;
+    color: #fcf8f2;
+    font-weight: 600;
+  }
+  .m-head-01a2-item {
+    margin-bottom: 24px;
+  }
+  .m-head-01a2-question {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .m-head-01a2-answer {
+    font-size: 14px;
+    line-height: 1.6;
+    padding-left: 16px;
+    border-left: 2px solid #7f5539;
+  }
+  .t-nav-uuf2-block {
+    padding: 24px;
+    border: 1px solid #2e2522;
+    margin-top: 24px;
+  }
+  .t-nav-uuf2-name {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .t-nav-uuf2-bio {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #7f5539;
+  }
+  .t-nav-u5sq {
+    padding: 40px 0;
+    border-top: 2px solid #2e2522;
+    text-align: center;
+    font-size: 12px;
+    color: #2e2522;
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="brand">EDITORIAL.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="kicker">BOUTIQUE KR / SELECTION ACCENT</div>
-      <h1>비주류 문화 지식 저널 및 아카이브</h1>
-      <div class="story-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>비주류 문화</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="editorials">
-        <div class="editorial-label">Recent Editorial Articles</div>
-        <div class="editorial-flow">
-          
-        <a href="posts/normal-1.html" class="editorial-block">
-          <h3>1960년대 한국 영화 손글씨 포스터 서체(Typography)의 시각 디자인적 보존 가치</h3>
-          <p>디지털 폰트가 전무하던 격변의 1960년대 한국 극장가를 상징하는 극영화 손그림 포스터와 당시 간판 화가들의 붓끝에서 창조된 특유의 볼드한 고딕 타이포그래피 서체들은 당대 시대적 ...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="editorial-block">
-          <h3>전통 악기 장인들의 보존 노하우: 해금 실크 현(Silk String)의 천연 비왁스 코팅 기법</h3>
-          <p>한국 전통 찰현악기인 해금의 뽕나무 현에 가해지는 마찰력을 극대화하고 온도 및 습도 편차에 따르는 실크 현의 수축 팽창을 방어하기 위해 벌꿀에서 추출한 밀랍 왁스와 천연 벌꿀을 엄...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="editorial-block">
-          <h3>활판 인쇄술의 숨겨진 보석: 19세기 납 활자(Lead Type) 캐스팅 자형 조각 기술</h3>
-          <p>활자를 한 자 한 자 구리 틀에 부어 굳히던 19세기 활판 금속 활자 조각술은 잉크가 젖은 종이 속으로 압착되어 들어갈 때 생기는 특유의 깊은 양각 엠보싱 텍스처와 미세하게 무너지...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="editorial-block">
-          <h3>아날로그 문화 컬렉터들이 선정한 PBN 빌더 트렌드 정보 공유 리포트</h3>
-          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="editorial-block">
-          <h3>아날로그 문화 컬렉터들이 선정한 PBN 빌더 트렌드 정보 공유 리포트</h3>
-          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
-        </a>
-      
+  <header class="t-btn-s54l">
+    <div class="t-btn-s54l-inner">
+      <div class="m-btn-mvar">공덕 셔츠룸 추천 가이드</div>
+      <div class="q-body-vjey" onclick="document.querySelector('.r-list-gzqt').classList.toggle('active')"></div>
+      <nav class="r-list-gzqt">
+        <a href="#criteria">선택 기준</a>
+        <a href="#precautions">이용 전 확인사항</a>
+        <a href="#suitability">조건별 적합성</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+  <main class="r-list-dek0">
+    <section class="k-item-c5jk">
+      <div class="k-item-c5jk-content">
+        <div>
+          <h1 class="k-item-c5jk-text">공덕 셔츠룸,<br>무작정 가지 마세요.</h1>
+          <div class="k-item-c5jk-rule"></div>
+          <p class="k-item-c5jk-sub">정보로 무장한 방문만이 진짜 만족을 선사합니다.</p>
+          <p class="k-item-c5jk-note">이 가이드는 일반적인 홍보가 아닙니다. 공덕 지역 셔츠룸의 현실을 직시하고, 당신이做出最明智한 선택을 돕기 위해 작성되었습니다. 편견을 버리고 사실에 기반한 판단을 하세요.</p>
+        </div>
+        <div class="k-item-c5jk-note" style="font-size: 12px; border-top: 1px solid #2e2522; padding-top: 16px;">
+          <strong>사이트 정보</strong><br>
+          지역: 공덕<br>
+          업종: 셔츠룸<br>
+          도메인: gongdeok-shirts-note.gangnam-night-zone.xyz
         </div>
       </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 EDITORIAL.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
+    </section>
+    <section class="q-item-bw5f" id="criteria">
+      <h2 class="q-item-bw5f-title">선택 기준: 이 세 가지를 무시하면 후회합니다</h2>
+      <div class="x-head-8hor-grid">
+        <div class="x-head-8hor-card">
+          <h3>1. 청결도</h3>
+          <p>먼지 쌓인 룸과 새것 같은 룸은 경험을 완전히 좌우합니다. 위생은 타협할 수 없는 첫 번째 기준입니다. 눈에 보이지 않는 곳까지 확인하세요.</p>
+        </div>
+        <div class="x-head-8hor-card">
+          <h3>2. 투명한 가격</h3>
+          <p>추가 비용이 붙는 '함정 가격'에 속지 마세요. 메뉴판에 모든 가격이 명시되어 있고, 추가 요구 시 미리 고지하는 업소를 선택해야 합니다.</p>
+        </div>
+        <div class="x-head-8hor-card">
+          <h3>3. 서비스 리뷰</h3>
+          <p>가짜 리뷰는 이제 그만. 실제 방문객의 솔직한 피드백을 찾아보세요. 특히 서비스 마인드와 응대 태도에 대한 후기는 결정적 단서가 됩니다.</p>
+        </div>
       </div>
-    </footer>
-  </div>
+    </section>
+    <section class="q-item-bw5f" id="precautions">
+      <h2 class="q-item-bw5f-title">이용 전 확인사항: 빠뜨리면 손해</h2>
+      <ul class="k-btn-8fsu">
+        <li><strong>예약 필수 여부:</strong> 무작정 가면 대기 시간이 길어집니다. 전화나 앱으로 예약 가능 여부를 사전에 확인하세요.</li>
+        <li><strong>영업 시간:</strong> 문 닫은 업소 앞에서 헛걸음하지 않도록 정확한 영업 시간을 파악하세요.</li>
+        <li><strong>결제 방식:</strong> 현금만 가능하거나, 카드 수수료가 붙는 곳도 있습니다. 결제 조건을 미리 알아두세요.</li>
+        <li><strong>취소 정책:</strong> 예약 후 취소 시 위약금이 발생할 수 있습니다. 정책을 꼼꼼히 읽으세요.</li>
+      </ul>
+    </section>
+    <section class="q-item-bw5f" id="suitability">
+      <h2 class="q-item-bw5f-title">조건별 적합성: 누구에게 어떤 업소가 맞는가?</h2>
+      <table class="k-main-12gc-table">
+        <thead>
+          <tr>
+            <th>방문 조건</th>
+            <th>추천 업소 유형</th>
+            <th>피해야 할 유형</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>조용한 대화를 원할 때</td>
+            <td>독립된 룸이 있고, 소음이 적은 업소</td>
+            <td>주변 소음이 크거나, 룸 간 방음이 안 되는 곳</td>
+          </tr>
+          <tr>
+            <td>예산이 제한적일 때</td>
+            <td>가격표가 명시되어 있고, 세금 포함 가격을 공개하는 업소</td>
+            <td>추가 비용이 불명확하거나, '기본 코스' 후 업셀링이 심한 곳</td>
+          </tr>
+          <tr>
+            <td>첫 방문 초보자</td>
+            <td>친절한 설명이 있는 업소, 리뷰에 초보 환영 언급이 많은 곳</td>
+            <td>분위기가 권위적이거나, 눈치를 주는 업소</td>
+          </tr>
+          <tr>
+            <td>위생 최우선</td>
+            <td>매일 소독을 실시한다고 명시한 곳, 청결 관련 리뷰가 많은 곳</td>
+            <td>오래된 시설이 그대로 노출된 곳, 냄새가 나는 곳</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="q-item-bw5f" id="faq">
+      <h2 class="q-item-bw5f-title">자주 묻는 질문 (FAQ)</h2>
+      <div class="m-head-01a2-item">
+        <div class="m-head-01a2-question">공덕 셔츠룸은 다른 지역과 비교해 어떤 점이 다른가요?</div>
+        <div class="m-head-01a2-answer">공덕 지역은 교통 편의성으로 인해 유동 인구가 많아, 업소의 다양성과 경쟁이 치열합니다. 이는 선택의 폭을 넓히지만, 동시에 품질 차이가 크다는 뜻이기도 합니다. 꼼꼼한 비교가 필수적입니다.</div>
+      </div>
+      <div class="m-head-01a2-item">
+        <div class="m-head-01a2-question">셔츠룸 이용 시 꼭 지켜야 할 에티켓이 있나요?</div>
+        <div class="m-head-01a2-answer">기본적으로 직원에 대한 존중과 예의는 필수입니다. 과도한 요구나 불쾌한 언행은 자제하세요. 또한, 업소 내에서의 대화는 다른 고객에게 불편을 줄 수 있으므로 적당한 볼륨을 유지하는 것이 좋습니다.</div>
+      </div>
+      <div class="m-head-01a2-item">
+        <div class="m-head-01a2-question">리뷰가 적은 신규 업소는 어떻게 판단해야 하나요?</div>
+        <div class="m-head-01a2-answer">신규 업소는 리뷰가 부족해 판단이 어렵습니다. 이 경우, 업소의 외관과 내부 청결 상태, 직원의 응대 태도를 직접 눈으로 확인하고 판단하는 것이 현명합니다. 위험을 감수하기 싫다면 검증된 업소를 선택하세요.</div>
+      </div>
+      <div class="m-head-01a2-item">
+        <div class="m-head-01a2-question">혼자 방문해도 괜찮은 업소가 있나요?</div>
+        <div class="m-head-01a2-answer">물론입니다. 혼자 방문하는 고객을 위해 편안한 1인 룸을 제공하는 업소도 있습니다. 다만, 혼자 방문 시에는 업소의 분위기가 개인에게 맞는지 더욱 신중하게 살펴야 합니다.</div>
+      </div>
+    </section>
+    <div class="t-nav-uuf2-block">
+      <div class="t-nav-uuf2-name">지역 정보 리서처 이준호</div>
+      <div class="t-nav-uuf2-bio">서울 nightlife 시장에서 7년간 업소 정보를 수집하고 분석해온 로컬 전문가입니다. 객관적인 데이터와 실질적인 경험을 바탕으로 방문객에게 가장 현실적인 조언을 제공합니다.</div>
+    </div>
+  </main>
+  <footer class="t-nav-u5sq">
+    <div class="r-list-dek0">
+      &copy; 2023 공덕 셔츠룸 추천 가이드. 모든 권리 보유.
+    </div>
+  </footer>
 </body>
 </html>
